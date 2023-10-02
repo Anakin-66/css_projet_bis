@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+h1, h2 {
+    font-size: 50px;
+}
+
+.haut_page {
+    position: relative; 
+    background-image: url(banner-1.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: 50%;
+    
+}
+
+.text_over {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.font_1 {
+    line-height:2.5;
+}
+
+.titre {
+    font-weight: bold;
+}
+
+.bouton_1 {
+    position: absolute;
+    border: 10px solid white;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    width: 100px;
+    text-align: center;
+    left: 50%;
+    top: calc(90%);
+    transform: translateX(-50%);
+    font-weight: bold;
+}
+
+.milieu_page {
+    text-align: center;
+    margin: 5%;
+}
+
+.font_2 {
+    opacity: 0.5;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.bouton_2 {
+    border: 10px solid black;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    
+}
+
+.bas_page {
+    background-image: url(banner-2.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: 50%;
+    background-color: grey;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    background-color: rgb(53, 51, 51);
+    margin: 0%;
+    padding: 30px;
+    font-size: small;
+}
